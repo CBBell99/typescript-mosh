@@ -10,8 +10,7 @@ let level;
 level = 1;
 level = "a";
 
+// declare number array
+let numbers: number[] = [1, 2, 3];
 
-function render(document){
-  console.log(document);
-  
-}
+// Tuples
