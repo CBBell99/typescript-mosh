@@ -19,3 +19,19 @@ let numbers: number[] = [1, 2, 3];
 let user: [number, string] = [1, 'Mosh']
 // Will work, but avoid this.  Use tuples for only 2 values if possible
 user.push(1)
+
+// Enums
+// const small = 1;
+// const medium = 2;
+// const large = 3;
+
+// use Pascal case for enum names
+// by default, enum values start at 0
+enum Size { Small, Medium, Large }
+
+// to change starting num, declare enum with a different number
+// if using a string, you need to explicitly declare the string for each enum value
+// enum Size { Small = 1, Medium, Large }
+
+let mySize: Size = Size.Small;
+console.log(mySize);
