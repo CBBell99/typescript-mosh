@@ -14,3 +14,8 @@ level = "a";
 let numbers: number[] = [1, 2, 3];
 
 // Tuples
+// strongly declare what types of values can be stored in the array
+// 1, "Mosh"
+let user: [number, string] = [1, 'Mosh']
+// Will work, but avoid this.  Use tuples for only 2 values if possible
+user.push(1)

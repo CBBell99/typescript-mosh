@@ -1,5 +1,10 @@
 "use strict";
-let age = 20;
-if (age < 50)
-    age += 10;
+let sales = 123456789;
+let course = 'TypeScript';
+let isPublshed = true;
+let level;
+level = 1;
+level = "a";
+let numbers = [1, 2, 3];
+let user = [1, 'Mosh'];
 //# sourceMappingURL=index.js.map
