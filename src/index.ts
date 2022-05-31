@@ -27,7 +27,7 @@ user.push(1)
 
 // use Pascal case for enum names
 // by default, enum values start at 0
-enum Size { Small, Medium, Large }
+const enum Size { Small, Medium, Large }
 
 // to change starting num, declare enum with a different number
 // if using a string, you need to explicitly declare the string for each enum value
